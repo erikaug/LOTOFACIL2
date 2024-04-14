@@ -1,0 +1,20 @@
+JDK 22
+
+As  bibliotecas importadas são:
+- `javax.swing.*`: Essa biblioteca fornece classes e métodos para criar interfaces gráficas em Java, como botões, rótulos, painéis e caixas de diálogo.
+
+- `java.awt.*`: Esta biblioteca oferece classes e métodos para criar e gerenciar elementos gráficos, como formas, cores e fontes, e para lidar com eventos de interface do usuário.
+
+- `java.awt.event.MouseAdapter`: Esta classe fornece um adaptador para lidar com eventos de mouse, permitindo que o código responda a ações do mouse, como cliques e movimentos.
+
+- `java.awt.event.MouseEvent`: Esta classe representa um evento de mouse, fornecendo informações sobre a posição do mouse e o tipo de evento, como cliques e movimentos.
+
+- `java.awt.geom.RoundRectangle2D`: Esta classe define uma forma retangular com cantos arredondados. É usada no código para desenhar botões com bordas arredondadas na interface gráfica.
+
+- `java.util.Random`: Essa classe é utilizada para gerar números aleatórios, essenciais para a funcionalidade do jogo de loteria.
+
+O projeto "LOTOFÁCIL" é um jogo de loteria que oferece três opções de apostas para o usuário. Ele permite ao usuário escolher entre:
+Apostar um número de 0 a 100, onde se o número escolhido for igual ao número sorteado, o usuário ganha R$ 1.000,00.
+Apostar uma letra de A a Z, onde se a letra escolhida for igual à letra premiada, o usuário ganha R$ 500,00.
+Selecionar um número inteiro e ganhar R$ 100,00 se o número for par.
+O projeto utiliza as bibliotecas padrão do Java, como javax.swing.* para a interface gráfica, java.awt.* para operações gráficas avançadas, e java.util.Random para a geração de números aleatórios.
